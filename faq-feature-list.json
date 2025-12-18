@@ -1,0 +1,72 @@
+{
+  "project": "Add FAQ sections to documentation overview pages",
+  "created": "2025-12-18",
+  "total_features": 8,
+  "completed_features": 8,
+  "features": [
+    {
+      "id": 1,
+      "name": "wallet-security-faq",
+      "description": "Add FAQ section to wallet-security/overview.mdx with 5 Q&A pairs covering hot/cold wallets, custodial vs non-custodial, multisig usage, seed phrase storage, and account abstraction",
+      "file": "docs/pages/wallet-security/overview.mdx",
+      "status": "complete",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "name": "incident-management-faq",
+      "description": "Add FAQ section to incident-management/overview.mdx with 5 Q&A pairs covering first response steps, SEAL 911 contact, disclosure timing, post-incident reports, and IR drills",
+      "file": "docs/pages/incident-management/overview.mdx",
+      "status": "complete",
+      "priority": "high"
+    },
+    {
+      "id": 3,
+      "name": "multisig-protocols-faq",
+      "description": "Add FAQ section to multisig-for-protocols/overview.mdx with 5 Q&A pairs covering threshold selection, transaction verification, compromised signers, software vs hardware wallets, and onboarding signers",
+      "file": "docs/pages/multisig-for-protocols/overview.mdx",
+      "status": "complete",
+      "priority": "high"
+    },
+    {
+      "id": 4,
+      "name": "infrastructure-faq",
+      "description": "Add FAQ section to infrastructure/overview.mdx with 4 Q&A pairs covering single vs multiple providers, security priorities, DNS hijacking protection, and zero-trust architecture",
+      "file": "docs/pages/infrastructure/overview.mdx",
+      "status": "complete",
+      "priority": "high"
+    },
+    {
+      "id": 5,
+      "name": "dprk-it-workers-faq",
+      "description": "Add FAQ section to dprk-it-workers/overview.mdx with 5 Q&A pairs covering warning signs, discovery response, legal implications, hiring hardening, and organizational risks",
+      "file": "docs/pages/dprk-it-workers/overview.mdx",
+      "status": "complete",
+      "priority": "high"
+    },
+    {
+      "id": 6,
+      "name": "external-security-reviews-faq",
+      "description": "Add FAQ section to external-security-reviews/overview.mdx with 4 Q&A pairs covering timing, auditor selection, preparation, and audit limitations",
+      "file": "docs/pages/external-security-reviews/overview.mdx",
+      "status": "complete",
+      "priority": "high"
+    },
+    {
+      "id": 7,
+      "name": "awareness-faq",
+      "description": "Add FAQ section to awareness/overview.mdx with 4 Q&A pairs covering security awareness definition, culture building, common attack vectors, and training frequency",
+      "file": "docs/pages/awareness/overview.mdx",
+      "status": "complete",
+      "priority": "medium"
+    },
+    {
+      "id": 8,
+      "name": "security-testing-faq",
+      "description": "Add FAQ section to security-testing/overview.mdx with 5 Q&A pairs covering testing types, fuzz testing, test effectiveness, formal verification, and static analysis tools",
+      "file": "docs/pages/security-testing/overview.mdx",
+      "status": "complete",
+      "priority": "medium"
+    }
+  ]
+}

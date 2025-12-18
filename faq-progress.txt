@@ -1,0 +1,65 @@
+# FAQ Addition Progress Log
+
+## Project Overview
+Adding FAQ sections to 8 high-priority documentation overview pages to improve LLM/AI agent usability.
+
+## Format Reference
+- Use `<details><summary>` HTML accordion pattern (matches existing safe-harbor and certs FAQs)
+- Place FAQ section before `</TagProvider>` and `<ContributeFooter />`
+- 4-5 Q&A pairs per page
+
+## Progress Log
+
+### 2025-12-18 - Session 1
+- Created feature branch: feature/add-faq-sections
+- Set up harness files: faq-feature-list.json, faq-progress.txt
+- Total features to implement: 8
+- Starting with feature #1: wallet-security-faq
+
+**Feature #1: wallet-security-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/wallet-security/overview.mdx
+- Topics: hot/cold wallets, custodial vs non-custodial, multisig usage, seed phrase storage, account abstraction
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #2: incident-management-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/incident-management/overview.mdx
+- Topics: first response steps, SEAL 911 contact, disclosure timing, post-incident reports, IR drills
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #3: multisig-protocols-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/multisig-for-protocols/overview.mdx
+- Topics: threshold selection, transaction verification, compromised signers, software vs hardware wallets, onboarding signers
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #4: infrastructure-faq - COMPLETE**
+- Added 4 Q&A pairs to docs/pages/infrastructure/overview.mdx
+- Topics: single vs multiple providers, security priorities, DNS hijacking, zero-trust architecture
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #5: dprk-it-workers-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/dprk-it-workers/overview.mdx
+- Topics: warning signs, discovery response, legal implications, hiring hardening, organizational risks
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #6: external-security-reviews-faq - COMPLETE**
+- Added 4 Q&A pairs to docs/pages/external-security-reviews/overview.mdx
+- Topics: timing, auditor selection, preparation, audit limitations
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #7: awareness-faq - COMPLETE**
+- Added 4 Q&A pairs to docs/pages/awareness/overview.mdx
+- Topics: security awareness definition, culture building, common attack vectors, training frequency
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #8: security-testing-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/security-testing/overview.mdx
+- Topics: testing types, fuzz testing, test effectiveness, formal verification, static analysis tools
+- Each answer includes cross-links to relevant detail pages
+
+---
+
+## Session Summary
+- All 8 features completed successfully
+- Added FAQ sections to 8 high-priority overview pages
+- Total Q&A pairs added: 37
+- Used long-running agent harness pattern from Anthropic blog for incremental progress

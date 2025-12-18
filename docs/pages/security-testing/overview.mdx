@@ -71,5 +71,42 @@ unexpected behaviors.
 
 ---
 
+## FAQ
+
+<details>
+<summary>What types of testing should every smart contract project implement?</summary>
+
+At minimum: unit tests (always, with high code coverage), integration tests (always, can combine with fork testing), fuzz tests (always, most unit tests can be fuzz tests), and static analysis (always, using tools like [Slither](https://github.com/crytic/slither) and [Aderyn](https://github.com/Cyfrin/aderyn)). Formal verification is recommended for math-heavy or stateless functions.
+
+</details>
+
+<details>
+<summary>What is fuzz testing and why is it important for smart contracts?</summary>
+
+Fuzz testing automatically generates random or unexpected inputs to find edge cases and vulnerabilities that manual testing might miss. For smart contracts, fuzzing can discover integer overflows, unexpected state transitions, and other bugs that only manifest with specific input combinations.
+
+</details>
+
+<details>
+<summary>How do I measure the effectiveness of my test suite?</summary>
+
+Use coverage analysis to see how thoroughly tests exercise code paths (aim for high branch coverage). Use mutation testing to verify tests actually catch bugs—mutation testing introduces small code changes and checks if tests fail. Both together give a complete picture of test quality.
+
+</details>
+
+<details>
+<summary>When should I use formal verification?</summary>
+
+Use formal verification for math-heavy functions, stateless logic, and functionality that must match another system's behavior. Formal verification mathematically proves correctness but requires significant expertise and is typically reserved for critical code paths where bugs would cause significant financial loss.
+
+</details>
+
+<details>
+<summary>What static analysis tools are recommended for Solidity?</summary>
+
+[Slither](https://github.com/crytic/slither) (by Trail of Bits) and [Aderyn](https://github.com/Cyfrin/aderyn) are widely used. These tools analyze code without executing it to find common vulnerability patterns, code quality issues, and potential security risks. Run static analysis in CI/CD pipelines for every commit.
+
+</details>
+
 </TagProvider>
 <ContributeFooter />
