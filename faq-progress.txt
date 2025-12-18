@@ -21,4 +21,9 @@ Adding FAQ sections to 8 high-priority documentation overview pages to improve L
 - Topics: hot/cold wallets, custodial vs non-custodial, multisig usage, seed phrase storage, account abstraction
 - Each answer includes cross-links to relevant detail pages
 
+**Feature #2: incident-management-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/incident-management/overview.mdx
+- Topics: first response steps, SEAL 911 contact, disclosure timing, post-incident reports, IR drills
+- Each answer includes cross-links to relevant detail pages
+
 ---

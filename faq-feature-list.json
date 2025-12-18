@@ -2,7 +2,7 @@
   "project": "Add FAQ sections to documentation overview pages",
   "created": "2025-12-18",
   "total_features": 8,
-  "completed_features": 1,
+  "completed_features": 2,
   "features": [
     {
       "id": 1,
@@ -17,7 +17,7 @@
       "name": "incident-management-faq",
       "description": "Add FAQ section to incident-management/overview.mdx with 5 Q&A pairs covering first response steps, SEAL 911 contact, disclosure timing, post-incident reports, and IR drills",
       "file": "docs/pages/incident-management/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "high"
     },
     {
