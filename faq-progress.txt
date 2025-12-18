@@ -1,0 +1,19 @@
+# FAQ Addition Progress Log
+
+## Project Overview
+Adding FAQ sections to 8 high-priority documentation overview pages to improve LLM/AI agent usability.
+
+## Format Reference
+- Use `<details><summary>` HTML accordion pattern (matches existing safe-harbor and certs FAQs)
+- Place FAQ section before `</TagProvider>` and `<ContributeFooter />`
+- 4-5 Q&A pairs per page
+
+## Progress Log
+
+### 2025-12-18 - Session 1
+- Created feature branch: feature/add-faq-sections
+- Set up harness files: faq-feature-list.json, faq-progress.txt
+- Total features to implement: 8
+- Starting with feature #1: wallet-security-faq
+
+---
