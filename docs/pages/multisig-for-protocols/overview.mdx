@@ -61,5 +61,44 @@ import { TagList, AttributionList, TagProvider, TagFilter, ContributeFooter } fr
 ### 4. Reference
 - [Implementation Checklist](/multisig-for-protocols/implementation-checklist) - Verify readiness for multisig operations
 
+---
+
+## FAQ
+
+<details>
+<summary>What threshold (M-of-N) should I use for my multisig?</summary>
+
+Common configurations: 2-of-3 for small teams (balance of security and availability), 3-of-5 or 4-of-7 for larger organizations. Higher thresholds increase security but risk lockout if signers become unavailable. Ensure you have backup signers or recovery procedures. See [Planning & Classification](/multisig-for-protocols/planning-and-classification) for guidance on choosing thresholds.
+
+</details>
+
+<details>
+<summary>How do I safely verify a multisig transaction before signing?</summary>
+
+Verify the transaction on your hardware wallet's screen, not just the web interface. Check the recipient address, amount, and contract interaction details match what was requested. Use the verification guides for [Safe Multisig](/wallet-security/secure-multisig-safe-verification) or [Squads](/wallet-security/secure-multisig-squads-verification) depending on your platform.
+
+</details>
+
+<details>
+<summary>What should I do if I suspect a signer's keys are compromised?</summary>
+
+Immediately initiate key rotation procedures. Remove the compromised signer and add a replacement. If you suspect active attack, pause operations and assess what transactions may have been queued. Follow the [Emergency Procedures](/multisig-for-protocols/emergency-procedures) guide and report via [Incident Reporting](/multisig-for-protocols/incident-reporting).
+
+</details>
+
+<details>
+<summary>Can I use a software wallet as one of my multisig signers?</summary>
+
+Hardware wallets are strongly recommended for all signers managing significant funds. Software wallets (browser extensions, mobile apps) have higher attack surface. If you must use software wallets, ensure they are on dedicated devices with strong security practices. See [Hardware Wallet Setup](/wallet-security/intermediates-&-medium-funds) for recommendations.
+
+</details>
+
+<details>
+<summary>How do I onboard a new signer to our multisig?</summary>
+
+Follow the [Joining a Multisig](/multisig-for-protocols/joining-a-multisig) guide. The new signer should set up their hardware wallet securely, share only their public address (never private keys), and be added through a properly verified transaction. Provide training on verification procedures before they sign any transactions.
+
+</details>
+
 </TagProvider>
 <ContributeFooter />

@@ -26,4 +26,9 @@ Adding FAQ sections to 8 high-priority documentation overview pages to improve L
 - Topics: first response steps, SEAL 911 contact, disclosure timing, post-incident reports, IR drills
 - Each answer includes cross-links to relevant detail pages
 
+**Feature #3: multisig-protocols-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/multisig-for-protocols/overview.mdx
+- Topics: threshold selection, transaction verification, compromised signers, software vs hardware wallets, onboarding signers
+- Each answer includes cross-links to relevant detail pages
+
 ---

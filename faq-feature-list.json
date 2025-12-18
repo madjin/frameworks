@@ -2,7 +2,7 @@
   "project": "Add FAQ sections to documentation overview pages",
   "created": "2025-12-18",
   "total_features": 8,
-  "completed_features": 2,
+  "completed_features": 3,
   "features": [
     {
       "id": 1,
@@ -25,7 +25,7 @@
       "name": "multisig-protocols-faq",
       "description": "Add FAQ section to multisig-for-protocols/overview.mdx with 5 Q&A pairs covering threshold selection, transaction verification, compromised signers, software vs hardware wallets, and onboarding signers",
       "file": "docs/pages/multisig-for-protocols/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "high"
     },
     {
