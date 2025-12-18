@@ -31,4 +31,14 @@ Adding FAQ sections to 8 high-priority documentation overview pages to improve L
 - Topics: threshold selection, transaction verification, compromised signers, software vs hardware wallets, onboarding signers
 - Each answer includes cross-links to relevant detail pages
 
+**Feature #4: infrastructure-faq - COMPLETE**
+- Added 4 Q&A pairs to docs/pages/infrastructure/overview.mdx
+- Topics: single vs multiple providers, security priorities, DNS hijacking, zero-trust architecture
+- Each answer includes cross-links to relevant detail pages
+
+**Feature #5: dprk-it-workers-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/dprk-it-workers/overview.mdx
+- Topics: warning signs, discovery response, legal implications, hiring hardening, organizational risks
+- Each answer includes cross-links to relevant detail pages
+
 ---

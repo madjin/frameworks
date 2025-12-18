@@ -41,5 +41,35 @@ security measures means a lower risk surface.
 
 ---
 
+## FAQ
+
+<details>
+<summary>Should I use a single provider for all infrastructure or multiple providers?</summary>
+
+Both approaches have trade-offs. Single provider: simpler management, unified security controls, but single point of failure. Multiple providers: redundancy and reduced vendor lock-in, but increased complexity and more attack surface to secure. Choose based on your risk tolerance and operational capacity.
+
+</details>
+
+<details>
+<summary>What are the most critical infrastructure security priorities for a Web3 project?</summary>
+
+Priority order: (1) DNS and domain registrar security—domain hijacking can redirect users to phishing sites, (2) DDoS protection—availability attacks are common, (3) Cloud access controls—misconfigured IAM is a leading breach cause, (4) Zero-trust network architecture. See [DNS and Domain Registration](/infrastructure/domain-and-dns-security/) and [Zero-Trust Principles](/infrastructure/zero-trust-principles) for details.
+
+</details>
+
+<details>
+<summary>How do I protect against DNS hijacking attacks?</summary>
+
+Enable registrar lock, use DNSSEC, enable MFA on registrar accounts, use dedicated email for domain accounts, and monitor DNS records for unauthorized changes. Consider using multiple DNS providers for redundancy. See [DNS and Domain Registration](/infrastructure/domain-and-dns-security/) for comprehensive guidance.
+
+</details>
+
+<details>
+<summary>What is zero-trust architecture and do I need it?</summary>
+
+Zero-trust assumes no user or system is inherently trusted, requiring verification for every access request regardless of network location. For Web3 projects with remote teams and valuable assets, zero-trust principles significantly reduce the impact of compromised credentials. See [Zero-Trust Principles](/infrastructure/zero-trust-principles) for implementation guidance.
+
+</details>
+
 </TagProvider>
 <ContributeFooter />

@@ -2,7 +2,7 @@
   "project": "Add FAQ sections to documentation overview pages",
   "created": "2025-12-18",
   "total_features": 8,
-  "completed_features": 3,
+  "completed_features": 5,
   "features": [
     {
       "id": 1,
@@ -33,7 +33,7 @@
       "name": "infrastructure-faq",
       "description": "Add FAQ section to infrastructure/overview.mdx with 4 Q&A pairs covering single vs multiple providers, security priorities, DNS hijacking protection, and zero-trust architecture",
       "file": "docs/pages/infrastructure/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "high"
     },
     {
@@ -41,7 +41,7 @@
       "name": "dprk-it-workers-faq",
       "description": "Add FAQ section to dprk-it-workers/overview.mdx with 5 Q&A pairs covering warning signs, discovery response, legal implications, hiring hardening, and organizational risks",
       "file": "docs/pages/dprk-it-workers/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "high"
     },
     {
