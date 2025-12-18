@@ -16,4 +16,9 @@ Adding FAQ sections to 8 high-priority documentation overview pages to improve L
 - Total features to implement: 8
 - Starting with feature #1: wallet-security-faq
 
+**Feature #1: wallet-security-faq - COMPLETE**
+- Added 5 Q&A pairs to docs/pages/wallet-security/overview.mdx
+- Topics: hot/cold wallets, custodial vs non-custodial, multisig usage, seed phrase storage, account abstraction
+- Each answer includes cross-links to relevant detail pages
+
 ---

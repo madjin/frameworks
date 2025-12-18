@@ -2,14 +2,14 @@
   "project": "Add FAQ sections to documentation overview pages",
   "created": "2025-12-18",
   "total_features": 8,
-  "completed_features": 0,
+  "completed_features": 1,
   "features": [
     {
       "id": 1,
       "name": "wallet-security-faq",
       "description": "Add FAQ section to wallet-security/overview.mdx with 5 Q&A pairs covering hot/cold wallets, custodial vs non-custodial, multisig usage, seed phrase storage, and account abstraction",
       "file": "docs/pages/wallet-security/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "high"
     },
     {
