@@ -2,7 +2,7 @@
   "project": "Add FAQ sections to documentation overview pages",
   "created": "2025-12-18",
   "total_features": 8,
-  "completed_features": 5,
+  "completed_features": 8,
   "features": [
     {
       "id": 1,
@@ -49,7 +49,7 @@
       "name": "external-security-reviews-faq",
       "description": "Add FAQ section to external-security-reviews/overview.mdx with 4 Q&A pairs covering timing, auditor selection, preparation, and audit limitations",
       "file": "docs/pages/external-security-reviews/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "high"
     },
     {
@@ -57,7 +57,7 @@
       "name": "awareness-faq",
       "description": "Add FAQ section to awareness/overview.mdx with 4 Q&A pairs covering security awareness definition, culture building, common attack vectors, and training frequency",
       "file": "docs/pages/awareness/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "medium"
     },
     {
@@ -65,7 +65,7 @@
       "name": "security-testing-faq",
       "description": "Add FAQ section to security-testing/overview.mdx with 5 Q&A pairs covering testing types, fuzz testing, test effectiveness, formal verification, and static analysis tools",
       "file": "docs/pages/security-testing/overview.mdx",
-      "status": "pending",
+      "status": "complete",
       "priority": "medium"
     }
   ]
